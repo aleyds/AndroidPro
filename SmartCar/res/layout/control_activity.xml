@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="true"
+    android:orientation="vertical" >
+    
+	 <ImageView
+        android:id="@+id/VedioViewPic"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_main_background"
+         > 
+        
+ 	</ImageView>
+ 	<!--  
+ 	  <com.czy.widget.MyVedio android:id="@+id/paintVedio"  
+ 	      android:scaleType="fitXY"
+ 		android:layout_width="fill_parent"  
+ 		android:layout_height="fill_parent"/> -->
+    
+    <LinearLayout
+        android:id="@+id/EffectLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/AlarmImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/speakeroff"
+            
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:id="@+id/RorchImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/off"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SteerLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignRight="@+id/EffectControl"
+        android:layout_below="@+id/SteerControl"
+        android:layout_marginTop="10dp"
+         >
+
+        <com.czy.widget.MySeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="30dp"
+            android:layout_height="150dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20.0dip"
+            android:progress="90"
+            android:max="180"
+             />
+
+        <com.czy.widget.MySeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="30dp"
+            android:layout_height="150dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:progress="90"
+            android:max="180"
+            />
+
+        <com.czy.widget.MySeekBar
+            android:id="@+id/seekBar3"
+            android:layout_width="30dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            android:progress="90"
+            android:max="180"
+             />
+
+        <com.czy.widget.MySeekBar
+            android:id="@+id/seekBar4"
+            android:layout_width="30dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            android:progress="90"
+            android:max="180"
+            />
+
+        <com.czy.widget.MySeekBar
+            android:id="@+id/seekBar5"
+            android:layout_width="30dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            android:progress="90"
+            android:max="180"
+           />
+
+        <com.czy.widget.MySeekBar
+            android:id="@+id/seekBar6"
+            android:layout_width="30dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            android:progress="90"
+            android:max="180"
+             />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="29dp"
+        android:background="#00000000"
+        android:scaleType="centerInside" >
+
+        <ImageButton
+            android:id="@+id/LeftConLeftUp"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="@drawable/img_left_up"
+            android:src="@drawable/img_left_up"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:id="@+id/LeftConUp"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/img_up"
+            android:src="@drawable/img_up"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:id="@+id/LeftConRightUp"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/img_right_up"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:id="@+id/LeftConLeft"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/img_left"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:id="@+id/LeftConRight"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/img_right"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:id="@+id/LeftConLeftDown"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/img_left_down"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:id="@+id/LeftConDown"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignLeft="@+id/LeftConUp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/img_down"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:id="@+id/LeftConRightDown"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#00000000"
+            android:scaleType="centerInside"
+            android:src="@drawable/img_right_down" />
+
+    
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="11dp"
+        android:background="#00000000"
+        android:scaleType="centerInside" >
+
+        <ImageButton
+            android:id="@+id/RightConUp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/img_up_0"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:id="@+id/RightConLeft"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/img_left_0"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:id="@+id/RightConRight"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/img_right_0"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:id="@+id/RightConDown"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/RightConUp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/img_down_0"
+            android:scaleType="centerInside" />
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/EffectControl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/GravityControl"
+        android:layout_alignBottom="@+id/GravityControl"
+        android:layout_alignLeft="@+id/GravityControl"
+        android:layout_marginLeft="112dp"
+        android:text="@string/cn_string_effect"
+        android:textColor="#ff0000" />
+
+    <CheckBox
+        android:id="@+id/GravityControl"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/relativeLayout1"
+        android:text="@string/cn_string_gravity_control"
+        android:textColor="#ff0000" />
+
+    <CheckBox
+        android:id="@+id/SteerControl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/GravityControl"
+        android:layout_alignBottom="@+id/GravityControl"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/EffectControl"
+        android:text="@string/cn_string_steer_control"
+        android:textColor="#ff0000" />
+
+</RelativeLayout>

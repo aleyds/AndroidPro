@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, client!</string>
+    <string name="app_name">smart car</string>
+    <string name="cn_string_menu_title">wifi视频小车-航太电子出品</string>
+    <string name="cn_string_main_titiel">wifi视频小车</string>
+    <string name="cn_string_official">官网:</string>
+    <!-- 退出提示框 -->
+    <string name="cn_string_exit_title">提示</string>
+    <string name="cn_string_exit_content">亲,确定不玩了么?</string>
+    <string name="cn_string_exit_yes">非常确定</string>
+    <string name="cn_string_exit_no">再玩一下</string>
+    
+    <!-- 控制界面 -->
+    <string name="cn_string_steer_control">舵机控制</string>
+    <string name="cn_string_gravity_control">重力感应</string>
+    <string name="cn_string_effect">功能</string>
+    <string name="cn_string_paramter">参数</string>
+    <string name="cn_string_connect_success">链接成功</string>
+    <string name="cn_string_connect_fail">链接失败</string>
+    <string name="cn_string_connect_no">没有链接</string>
+    <string name="cn_string_connect">连接</string>
+    
+    <string name="cn_string_mileage">里程</string>
+    <string name="cn_string_speed">速度</string>
+    
+    <string name="cn_string_control_up">前</string>
+    <string name="cn_string_control_down">后</string>
+    <string name="cn_string_control_left">左</string>
+    <string name="cn_string_control_right">右</string>
+    <string name="cn_string_control_stop">停</string>
+    <string name="cn_string_control_port">控制端口</string>
+    <string name="cn_string_control_address">控制地址</string>
+    <string name="cn_string_vedio_address">视频地址</string>
+</resources>
