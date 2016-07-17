@@ -9,6 +9,7 @@
         android:targetSdkVersion="21" />
 
     <application
+        android:name="com.alcohol.activity.AlcoholApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/str_AppName"
@@ -22,6 +23,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.alcohol.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.alcohol.activity.UserRegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
     </application>
 
 </manifest>

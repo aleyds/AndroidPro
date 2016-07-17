@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import com.alcohol.activety.R;
 import com.alcohol.db.AppStartParam;
+import com.alcohol.subActivity.ViewGuidePage;
 
 import android.app.Activity;
 import android.view.Menu;
@@ -25,11 +26,12 @@ public class StartActivity extends Activity {
 		
 	}
 	
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_start);
-		
+		WedgitInit();
 	}
 	
 	
@@ -41,13 +43,7 @@ public class StartActivity extends Activity {
 		mAnimation.setAnimationListener(mAnimationListener);
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.start, menu);
-		return true;
-	}
-
+	
 	private AnimationListener mAnimationListener = new Animation.AnimationListener() {
 		
 		@Override
@@ -68,7 +64,11 @@ public class StartActivity extends Activity {
 			AppStartParam mAppStartParam = new AppStartParam(StartActivity.this);
 			if(mAppStartParam.isFirstStart()){
 				mAppStartParam.saveFirstStart(false);
-				
+				ViewGuidePage Gurid = new ViewGuidePage(StartActivity.this);
+				Gurid.showGuidePage();
+			}else{
+				ViewGuidePage Gurid = new ViewGuidePage(StartActivity.this);
+				Gurid.showGuidePage();
 			}
 		}
 	};

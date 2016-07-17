@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/appbackcolor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_background"
+        android:orientation="vertical" >
+
+        <!-- Register Activity Title Bar -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/registerBack"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/str_UserReg_UserRegister"
+                android:textColor="@color/fontColor_white"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+        
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        
+         <!--Input Phone Number -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <EditText
+                android:id="@+id/phoneNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:hint="@string/str_UserReg_InputPhoneNumber"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textColor="@color/fontColor_white"
+                android:textColorHint="@color/fontColor_white_halfAlpha"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/lineColor_white_halfAlpha" />
+        </LinearLayout>
+            
+            <!-- Verification Code and Obtain Button -->
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+            	android:layout_marginRight="30dp"
+            	android:gravity="center_vertical"
+            	android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/verifyCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@null"
+                        android:hint="@string/str_UserReg_InputVerifuCode"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:textColor="@color/fontColor_white"
+                        android:textColorHint="@color/fontColor_white_halfAlpha"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:id="@+id/verifyCodeLine"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/lineColor_white_halfAlpha" />
+                </LinearLayout>
+                
+                <FrameLayout
+                    android:id="@+id/obtainFrame"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp" >
+                    <Button
+                        android:id="@+id/obtainButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                		android:paddingRight="5dp"
+                        android:text="@string/str_UserReg_VerifyCode"
+                        android:textSize="14sp" />
+                  </FrameLayout>
+            </LinearLayout>
+            
+            <!-- Input Email 
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+            	android:layout_marginRight="30dp"
+            	android:gravity="center_vertical"
+                android:orientation="vertical">
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@null"
+                        android:hint="@string/cn_tv_email_tip"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        android:textColor="@color/fontColor_white"
+                        android:textColorHint="@color/fontColor_white_halfAlpha"
+                        android:textSize="18sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/lineColor_white_halfAlpha" />
+            </LinearLayout>-->
+            
+            <!-- Input Password -->
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+            	android:layout_marginRight="30dp"
+            	android:gravity="center_vertical"
+                android:orientation="vertical">
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@null"
+                        android:hint="@string/str_UserReg_InputPwd"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textColor="@color/fontColor_white"
+                        android:textColorHint="@color/fontColor_white_halfAlpha"
+                        android:textSize="18sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/lineColor_white_halfAlpha" />
+            </LinearLayout>
+            
+            <!-- Confirm Password -->
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+            	android:layout_marginRight="30dp"
+            	android:gravity="center_vertical"
+                android:orientation="vertical">
+                    <EditText
+                        android:id="@+id/confirmPwd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@null"
+                        android:hint="@string/str_UserReg_InputPwdAgain"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textColor="@color/fontColor_white"
+                        android:textColorHint="@color/fontColor_white_halfAlpha"
+                        android:textSize="18sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/lineColor_white_halfAlpha" />
+            </LinearLayout>
+            
+            
+      	<View 
+      	    android:layout_width="match_parent"
+      	    android:layout_height="0dp"
+      	    android:layout_weight="1"/>
+      	
+      	<!-- Register Button -->
+      	<LinearLayout 
+      	    android:layout_width="match_parent"
+      	    android:layout_height="0dp"
+      	    android:layout_weight="1"
+      	    android:layout_marginLeft="30dp"
+      	    android:layout_marginRight="30dp"
+      	    android:orientation="vertical">
+      	    <Button 
+      	        android:id="@+id/registerButton"
+      	        android:layout_width="match_parent"
+      	        android:layout_height="wrap_content"
+      	        android:text="@string/str_UserReg_Register"
+      	        android:textSize="18sp"
+      	        android:textColor="@color/fontColor_darkgrey"
+      	       />
+      	</LinearLayout>
+      	
+      	<View 
+      	    android:layout_width="match_parent"
+      	    android:layout_height="0dp"
+      	    android:layout_weight="1"/>
+        
+        <!--  
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+      	    
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cn_ura_msg1"
+                android:textSize="14sp"
+                android:textColor="@color/fontColor_white"/>
+      	    
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cn_ura_msg2"
+                android:textSize="14sp"
+                android:textColor="@color/fontColor_white"
+                android:textStyle="bold"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cn_ura_msg3"
+                android:textSize="14sp"
+                android:textColor="@color/fontColor_white"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cn_ura_msg4"
+                android:textSize="14sp"
+                android:textColor="@color/fontColor_white"
+                android:textStyle="bold"/>
+            
+        </LinearLayout>-->
+        
+        </LinearLayout>
+        
+    
+    
+
+</LinearLayout>

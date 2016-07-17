@@ -1,4 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
      <string name="str_AppName">酒友</string>
+     <string name="str_StartApp">开始体验</string>
+     
+     <!-- 登录界面 -->
+     <string name="str_UserLogin">登录</string>
+     <string name="str_UserRegister">注册</string>
+     <string name="str_UserInputNumber">请输入用户名</string>
+     <string name="str_UserInputPwd">请输入用户密码</string>
+     <string name="str_UserForgetPwd">忘记密码</string>
+     <string name="str_UserOtherLogin">其他方式登录</string>
+     <string name="str_UserWechatLogin">微信登录</string>
+     <string name="str_UserWeboLogin">微博登录</string>
+     <string name="str_UserLoginTitle">用户注册</string>
+     
+     <!-- 主界面 -->
+     <string name="str_mainCheck">检测</string>
+     <string name="str_mainRecord">记录</string>
+     <string name="str_mainSetting">设置</string>
+     <string name="str_mainManage">管理</string>
+     <string name="str_mainFind">发现</string>
+     <string name="str_mainDeviceConnect">链接</string>
+     <string name="str_mainDeviceDisCon">断开</string>
+     <string name="str_mainBattery">电池</string>
+     <string name="str_mainKeydownAgain">再按一次退出</string>
+     
+     <!-- 注册界面 -->
+     <string name="str_UserReg_UserRegister">用户注册</string>
+     <string name="str_UserReg_VerifyCode">获取验证码</string>
+     <string name="str_UserReg_InputPhoneNumber">请输入手机号</string>
+     <string name="str_UserReg_InputVerifuCode">请输入验证码</string>
+     <string name="str_UserReg_InputPwd">请输入密码</string>
+     <string name="str_UserReg_InputPwdAgain">请再次输入密码</string>
+     <string name="str_UserReg_Register">注册</string>
+     
 </resources>

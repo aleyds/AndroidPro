@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightblue">#add8e6</color>
+    
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="light_black">#40404040</color>
+    <color name="light_green">#99b433</color>
+    <color name="green">#00a300</color>
+    <color name="dark_green">#1e7145</color>
+    <color name="magenta">#ff0097</color>
+    <color name="light_purple">#9f00a7</color>
+    <color name="purple">#7e3878</color>
+    <color name="dark_purple">#603cba</color>
+    <color name="darken">#1d1d1d</color>
+    <color name="teal">#00aba9</color>
+    <color name="blue">#2d89ef</color>
+    <color name="dark_blue0">#2b5797</color>
+    <color name="dark_blue">#0066cc</color>
+    <color name="light_blue1">#33cccc</color>
+    <color name="yellow">#ffc40d</color>
+    <color name="orange">#e3a21a</color>
+    <color name="dark_orange">#da532c</color>
+    <color name="red">#ee1111</color>
+    <color name="dark_red">#b91d47</color>
+    <color name="grey">#969696</color>
+    <color name="light_grey">#EDEDED</color>
+    <color name="light_grey1">#b00000</color>
+    <color name="vifrification">#00000000</color>   <!-- 透明 -->
+    <color name="appbackcolor">#172228</color>
+    <color name="fontColor_white">#ffffff</color>
+    <color name="fontColor_white_halfAlpha">#7fffffff</color>
+    <color name="fontColor_darkgrey_halfAlpha">#7f626262</color>
+    <color name="fontColor_darkgrey">#626262</color>
+    <color name="fontColor_lightgrey">#969696</color>
+    <color name="fontColor_blue">#0169c0</color>
+    <color name="fontColor_lightblue">#55a9f1</color>
+    <color name="fontColor_green">#22ac38</color>
+    <color name="lineColor_darkgrey">#626262</color>
+    <color name="lineColor_lightgrey">#969696</color>
+    <color name="lineColor_white">#ffffff</color>
+    <color name="lineColor_white_halfAlpha">#7fffffff</color>
+    <color name="lineColor_setlist">#b7b6b6</color>
+    <color name="lineColor_setlist_divideline">#ebe8e8</color>
+    <color name="backgrdColor_grey">#b5b5b5</color>
+    <color name="icColor_purple">#8c81df</color>
+    <color name="darkgrey_halfAlpha">#7f000000</color>
+    <color name="white_alpha">#ffffffff</color>
+    <color name="white_logintext">#e0dede</color>
+    <color name="bgk_half">#7f000000</color>
+    <color name="save_schedule_bgk_line">#d0d0d1</color>
+    <color name="verify_code_green">#519935</color>
+    <color name="save_power_title_green">#80c607</color>
+    <color name="fast_window_btn">#536492</color>
+    <color name="darkmain_blue">#143155</color>
+    
+</resources>
