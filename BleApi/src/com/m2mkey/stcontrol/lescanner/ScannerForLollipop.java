@@ -3,16 +3,11 @@ package com.m2mkey.stcontrol.lescanner;
 import java.util.ArrayList;
 import java.util.List;
 
-import android.bluetooth.le.BluetoothLeScanner;
-import android.bluetooth.le.ScanCallback;
-import android.bluetooth.le.ScanFilter;
-import android.bluetooth.le.ScanResult;
-import android.bluetooth.le.ScanSettings;
-
 import com.m2mkey.stcontrol.M2MBLEDevice;
 
 import android.annotation.TargetApi;
 import android.bluetooth.BluetoothAdapter;
+import android.net.wifi.ScanResult;
 import android.util.Log;
 
 @TargetApi(21)

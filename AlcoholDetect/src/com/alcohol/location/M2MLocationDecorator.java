@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.alcohol.db.CBL;
-import com.m2mkey.stcontrol.M2MBLEDevice;
 
 public class M2MLocationDecorator extends DeviceDecorator {
 	
